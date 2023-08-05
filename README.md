@@ -14,7 +14,7 @@ You could change from graphic mode to text mode in `debug.h`
 
 ## Graphic Mode
 ### Video Link
-![Demo](https://youtu.be/ioLIfdPtMwk)
+[Demo](https://youtu.be/ioLIfdPtMwk)
 
 ## Text Mode
 sample output
@@ -70,5 +70,5 @@ collect2: error: ld returned 1 exit status
 make: *** [Makefile:10: main] Error 1
 ```
 EG.
-`gcc -ansi -pedantic -g -o $@ $^ -L. -linvaders -llinkedlist -lncurses
+`gcc -ansi -pedantic -g -o $@ $^ -L. -linvaders -llinkedlist -lncurses -no-pie
 `
